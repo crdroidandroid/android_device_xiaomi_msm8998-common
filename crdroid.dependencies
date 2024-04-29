@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_msm8998",
+    "target_path": "kernel/xiaomi/msm8998"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_msm8998-common",
+    "target_path": "vendor/xiaomi/msm8998-common"
+  }
+]
