@@ -183,7 +183,7 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.4.vendor
+    android.hardware.drm-V1-ndk.vendor
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
@@ -343,7 +343,8 @@ PRODUCT_PACKAGES += \
 
 # Protobuf
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-3.9.1-vendorcompat
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # QCOM
 PRODUCT_COPY_FILES += \

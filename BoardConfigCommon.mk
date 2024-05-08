@@ -69,7 +69,6 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
-TARGET_USES_VULKAN := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
@@ -126,7 +125,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-09-01
+VENDOR_SECURITY_PATCH := 2024-04-05
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
