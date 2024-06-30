@@ -130,7 +130,6 @@ vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=1
 vendor.display.disable_skip_validate=1
 vendor.display.enable_default_color_mode=1
-vendor.display.perf_hint_window=50
 vendor.gralloc.enable_fb_ubwc=1
 
 # FRP
@@ -145,7 +144,6 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 
 # Media
-debug.stagefright.omx_default_rank.sw-audio=16
 debug.stagefright.omx_default_rank=0
 
 # Network manager
@@ -156,7 +154,6 @@ persist.vendor.data.mode=concurrent
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.qti.core_ctl_max_cpu=4
 ro.vendor.qti.core_ctl_min_cpu=0
-ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Radio
 persist.radio.multisim.config=dsds
